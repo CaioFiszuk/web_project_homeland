@@ -1,0 +1,22 @@
+.image-container {
+  max-width: 984px;
+  margin: 0 148px;
+}
+
+.image-container__image {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .image-container {
+    max-width: 768px;
+    margin: 0;
+  }
+}
+
+@media (min-width: 728px) and (max-width: 320px) {
+  .image-container {
+    max-width: 320px;
+    margin: 0;
+  }
+}
