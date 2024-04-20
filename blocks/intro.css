@@ -1,6 +1,5 @@
 .intro {
   max-width: 984px;
-  margin: 0 148px;
 }
 
 .intro__title {
@@ -20,10 +19,13 @@
   text-align: center;
 }
 
+.intro__image {
+  width: 100%;
+}
+
 @media screen and (max-width: 768px) {
   .intro {
-    max-width: 720px;
-    margin: 0 24px;
+    width: 100%;
   }
 
   .intro__title {
@@ -31,14 +33,17 @@
     font-size: 75px;
     line-height: 79px;
   }
+
+  .intro__subtitle {
+    padding: 0 24px 0 24px;
+  }
+
+  .intro__image {
+    max-width: 768px;
+  }
 }
 
 @media (min-width: 728px) and (max-width: 320px) {
-  .intro {
-    max-width: 288px;
-    margin: 0 16px;
-  }
-
   .intro__title {
     font-size: 40px;
     line-height: 44px;
@@ -47,5 +52,9 @@
   .intro__subtitle {
     font-size: 16px;
     line-height: 420px;
+  }
+
+  .intro__image {
+    max-width: 320px;
   }
 }
