@@ -21,6 +21,7 @@
 
 .intro__image {
   width: 100%;
+  box-shadow: 10px 10px 25px #000000;
 }
 
 @media screen and (max-width: 884px) {
